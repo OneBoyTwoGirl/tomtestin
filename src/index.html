@@ -1,0 +1,53 @@
+<!-- 
+* File: index.html
+* Author: Serényi Zsolt Ödön
+* Copyright: 2023, Serényi Zsolt Ödön
+* Group: Szoft II N
+* Date: 2023-02-06
+* Github: https://github.com/OneBoyTwoGirl
+* Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomtestin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+    <div class="nav nav-tabs justify-content-center">
+        <div class="nav-item">
+            <a href="index.html" class="nav-link">Főoldal</a>
+        </div>
+        <div class="nav-item">
+             <a href="about.html" class="nav-link">Névjegy</a>
+        </div>
+        <div class="nav-item">
+            <a href="github.html" class="nav-link">GitHub</a>
+         </div>
+    </div>
+    <div class="container">
+        <h1>Testtömegindex kalkulátor</h1>
+        <div>
+            <div class="mb-3">
+                <label for="weight" class="form-label">Testtömeg(kg):</label>
+                <input type="text" class="form-control" id="weight" placeholder="testtömeg (kg)">
+            </div>
+            <div class="mb-3">
+                <label for="height" class="form-label">Testmagasság(méter):</label>
+                <input type="text" class="form-control" id="height" placeholder="testmagasság (méter)">
+            </div>
+            <div class="mb-3">
+                <label for="result" class="form-label">Testtömegindex:</label>
+                <input type="text" class="form-control" id="result" disabled>
+            </div>
+            <button type="button" class="btn btn-dark" id="calcButton">számít</button>
+        </div>
+        <p class="text-center">Serényi Zsolt Ödön<br>2023.02.06.<br>Szoft II N</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

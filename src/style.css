@@ -1,0 +1,15 @@
+/*
+* File: style.css
+* Author: Serényi Zsolt Ödön
+* Copyright: 2023, Serényi Zsolt Ödön
+* Group: Szoft II N
+* Date: 2023-02-06
+* Github: https://github.com/OneBoyTwoGirl
+* Licenc: GNU GPL
+*/
+h1{
+	text-transform:uppercase;
+	letter-spacing:7px;
+	padding:20px 0;
+	text-align:center;
+}
